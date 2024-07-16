@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    color: #555555;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+/* .main {
+    background-color: #555555;
+} */
+.container {
+    background: radial-gradient(rgba(255, 255, 255, 0.89), #70b7fa);
+}
+.card {
+    width: 80vw;
+    margin: auto;
+}
+.btn {
+    display: inline-block;
+    background: #ff523b;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.btn:hover {
+    background: #aa2d1d;
+    color: #ffff;
+    cursor: pointer;
+}
+
+
+/* header */
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    height: auto;
+    width: 150px;
+}
+/* .searchBar input {
+    width: 400px;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 0 3px rgb(224, 224, 224);
+} */
+.nav {
+    width: 40vw;
+}
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul li a {
+    color: #555555;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav ul li a:hover {
+    color: black;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannerText h1 {
+    font-size: 54px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+/* Offer */
+.offer{
+    margin-top: 5px;
+    background: radial-gradient(rgba(255, 255, 255, 0.89), #70b7fa);
+}
+.offerContainer {
+    height: 80vh;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offerText {
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.offerText h1 { 
+    font-size: 48px;
+    font-weight: 800;
+}
+.offer .btn  {
+    width: 150px;
+}
+
+/*---------Testimonial----------*/
+
+.testimonial .userReview {
+    width: 80vw;
+    height: 45vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonial .review {
+    height: 25vw;
+    width: 25vw;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px #0000001a;
+    cursor: pointer;
+    transition: transform 0.5s;
+    font-size: small;
+    color: #555555;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonial .review .reviewText {
+    height: 25vh;
+    overflow: hidden;
+}
+.testimonial .review img {
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.testimonial .review:hover {
+    transform: translateY(-20px);
+}
+.testimonial .review h3 {
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+.fa.fa-quote-left {
+    font-size: 20px;
+    color: #ff523b;
+}
+.reire .rating, .review img , .review h3 {
+    margin-bottom: 0;
+}
+/* Sponsers*/
+.sponsers {
+    background-color: #ffffff;
+}
+.sponserContainer {
+    height: 40vh;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sponserContainer .sponserImg img {
+    width: 150px;
+    height: auto;
+}
+
+
+/* footer */
+.footer {
+    height: 60vh;
+    background-color: #000000;
+}
+.footer a {
+    line-height: 25px;
+}
+.footer a:hover{
+    color: #ffffff;
+}
+.footerContainer {
+    height: 40vh;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #929292;
+}
+.socialLinks p, .links p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 35px;
+}
+.footerLogo {
+    height: 150px;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    line-height: 25px;
+}
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    margin-top: 70px;
+    text-align: center;
+    color: #929292;
+}
+
+
+/* Contact Us */
+.contactUs h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 48px;
+}
+.contactForm {
+    width: 80vw;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form {
+    width: 40vw;
+    background-color: #ffffff;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 0 2px  #cecdcd;
+    border: none;
+    border-radius: 5px;
+}
+.contactForm form input, .contactForm form  textarea {
+    width: 35vw;
+    padding-bottom: 30px;
+    border: none;
+    box-shadow: 0 0 1px 2px #e2e2e2;
+    border-radius: 5px;
+}
+.contactForm form input {
+    height: 35px;
+}
+.contactForm form  textarea {
+    height: 100px;
+    margin-top: 5px;
+}
+.contactForm form .btn {
+    border: none;
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.contactForm form .btn:hover {
+    color: #ffffff;
+}
+ 
+/* Contact Us / Maps */
+.contactForm  .map iframe{
+    width: 35vw;
+    height: 55vh;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px  #cecdcd;
+}
+

@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+a {
+    text-decoration: none;
+}
+.main {
+    height: 100vh;
+}
+.header {
+    height: 70px;
+    margin: 60px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    width: 30vw;
+}
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-weight: 700;
+}
+.nav ul li a {
+    color: #5a5a5a;
+}
+.nav ul li a:hover {
+    color: black;
+}
+.nav a {
+    font-size: 24px;
+    text-decoration: none;
+}
+.body {
+    height: 60vh;
+    margin: 60px;
+    border: 2px solid orange;
+}
+.aboutMe {
+    display: flex;
+}
+.aboutMe .frame {
+    height: 300px;
+    width: 220px;
+    border: 3px solid black;
+    position: absolute;
+    top: 310px;
+    left: 90px;
+    z-index: -100;
+}
+.aboutMe img {
+    height: 300px;
+    width: 250px;
+    padding: 0 20px 0 0;
+}
+.aboutMe .bio {
+    padding-left: 10px;
+    text-align: justify;
+}
+.footer {
+    margin: 60px;
+    border: 2px solid palegreen;
+}
+.topic h1 {
+    height: 100px;
+    text-align: center;
+    font-size: 48px;
+}
+.footer .contactMe {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .contactMe  .contactText {
+     width: 40vw;
+     line-height: 35px;
+}
+.footer form {
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer form input, .footer form  textarea {
+    width: 500px;
+    padding-bottom: 30px;
+    border: none;
+    box-shadow: 0 0 1px 2px #e2e2e2;
+    border-radius: 5px;
+}
+.footer form input {
+    height: 35px;
+}
+.footer form  textarea {
+    height: 100px;
+    margin-top: 5px;
+}
+.footer button {
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.footer button:hover {
+    font-weight: 700;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
